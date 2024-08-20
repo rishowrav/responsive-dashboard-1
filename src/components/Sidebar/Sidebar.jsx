@@ -1,3 +1,6 @@
+import { links } from "../../constants";
+import LinkItem from "./LinkItem";
+
 const Sidebar = ({ isSidebarOpen }) => {
   return (
     <aside
@@ -5,7 +8,13 @@ const Sidebar = ({ isSidebarOpen }) => {
         isSidebarOpen ? "translate-x-0" : "-translate-x-full"
       }`}
     >
-      <h1>Sidebar</h1>
+      <div className="h-full px-3 overflow-y-auto pb-4">
+        <ul className="space-y-2 font-medium">
+          {links.map((link, index) => (
+            <LinkItem key={index} {...link} />
+          ))}
+        </ul>
+      </div>
     </aside>
   );
 };
