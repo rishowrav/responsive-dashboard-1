@@ -1,8 +1,20 @@
-# React + Vite
+# Responsive Dashboard-1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Link: https://responsive-dashboard-1.netlify.app/
 
-Currently, two official plugins are available:
+Git repo: https://github.com/rishowrav/responsive-dashboard-1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Description
+
+This project is a dashboard I've created to practice and sharpen my development skills. If you find it useful and would like to incorporate it into your work, you're more than welcome. I’m pleased that my project could be a helpful resource for you.
+
+### Features
+
+- Charts
+
+### Installation
+
+```
+$ npm install
+$ npm run dev
+```
